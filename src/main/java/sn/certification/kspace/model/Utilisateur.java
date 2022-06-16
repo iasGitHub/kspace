@@ -110,4 +110,12 @@ public class Utilisateur {
     public void setSexe(String sexe) {
         this.sexe = sexe;
     }
+
+    public Collection<UtilisateurRole> getUserRole() {
+        return userRole;
+    }
+
+    public void setUserRole(Collection<UtilisateurRole> userRole) {
+        this.userRole = userRole;
+    }
 }
